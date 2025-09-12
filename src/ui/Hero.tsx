@@ -9,10 +9,9 @@ function Hero() {
             Тхэквондо ИТФ в Тверской области — путь к мастерству и дисциплине
           </h1>
           <p className='mt-4 text-slate-700'>
-            Федерация действует с 2021 года в Редкино и Твери. Президент —{" "}
-            <strong>Татьяна Сергеевна Лямина</strong>. Главный тренер —{" "}
-            <strong>Станислав Александрович Лямин</strong>, международный
-            инструктор, МСМК.
+            Федерация действует с 2021 года в Редкино и Твери. Президент и{" "}
+            Главный тренер — <strong>Станислав Александрович Лямин</strong>,
+            международный инструктор, МСМК.
           </p>
           <div className='mt-6 flex flex-col sm:flex-row gap-3'>
             <a
@@ -31,7 +30,6 @@ function Hero() {
           <div className='mt-8 grid grid-cols-3 gap-3 sm:gap-4 text-center'>
             <Stat title='с 2021' caption='работаем' />
             <Stat title='ITF' caption='формат' />
-            <Stat title='04–06.04' caption='Кубок Верхневолжья’25' />
           </div>
         </div>
         <div className='rounded-3xl bg-gradient-to-br from-[var(--blue-700)] to-[var(--blue-500)] min-h-56 sm:min-h-64 lg:min-h-[22rem] grid place-items-center text-white/90'>

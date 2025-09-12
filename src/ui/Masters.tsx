@@ -1,22 +1,14 @@
 function Masters() {
   return (
     <section id='coaches' className='py-14 lg:py-20 bg-white'>
-      <div className='mx-auto max-w-6xl px-4 sm:px-6'>
+      <div className='mx-auto max-w-2xl px-4 sm:px-6'>
         <h2 className='text-2xl sm:text-3xl font-extrabold text-[var(--blue-700)]'>
           Тренерский состав
         </h2>
-        <div className='mt-6 grid md:grid-cols-3 gap-4'>
+        <div className='mt-6 grid  text-center '>
           <Coach
             name='Станислав Александрович Лямин'
             role='Главный тренер, международный инструктор, МСМК'
-          />
-          <Coach
-            name='Анна Смирнова'
-            role='Тренер (детские/подростковые группы), 2 дан'
-          />
-          <Coach
-            name='Сергей Орлов'
-            role='Тренер по технике и спаррингам, 3 дан'
           />
         </div>
       </div>
@@ -32,7 +24,7 @@ type CoachType = {
 function Coach({ name, role }: CoachType) {
   return (
     <div className='rounded-2xl p-5 bg-white border border-slate-200'>
-      <div className='h-28 rounded-xl bg-slate-100 grid place-items-center text-slate-500 text-sm'>
+      <div className='h-28 rounded-xl bg-slate-100 grid place-items-center text-slate-500 text-sm md:h-150'>
         Фото позже
       </div>
       <div className='mt-3 font-semibold text-[var(--blue-700)]'>{name}</div>
