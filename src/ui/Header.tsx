@@ -1,8 +1,6 @@
-import Button from "./Button";
-
 function Header() {
   return (
-    <header className='bg-[var(--blue-900)] text-white'>
+    <header className='bg-[var(--blue-900)] text-white' data-aos='fade-up'>
       <div className='mx-auto max-w-6xl px-4 sm:px-6 py-3 flex items-center justify-between'>
         <div className='flex items-center gap-2'>
           <div className='size-8 rounded-lg bg-white/10 grid place-items-center'>

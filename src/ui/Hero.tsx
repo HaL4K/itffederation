@@ -2,7 +2,7 @@ import { ArrowRight } from "lucide-react";
 
 function Hero() {
   return (
-    <section className='bg-[var(--blue-50)]'>
+    <section className='bg-[var(--blue-50)]' data-aos='flip-up'>
       <div className='mx-auto max-w-6xl px-4 sm:px-6 py-14 lg:py-20 grid lg:grid-cols-2 gap-10 items-center'>
         <div>
           <h1 className='text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight text-[var(--blue-700)]'>
@@ -32,7 +32,11 @@ function Hero() {
             <Stat title='ITF' caption='формат' />
           </div>
         </div>
-        <div className='rounded-3xl bg-gradient-to-br from-[var(--blue-700)] to-[var(--blue-500)] min-h-56 sm:min-h-64 lg:min-h-[22rem] grid place-items-center text-white/90'>
+        <div
+          className='rounded-3xl bg-gradient-to-br from-[var(--blue-700)] to-[var(--blue-500)] min-h-56 sm:min-h-64 lg:min-h-[22rem] grid place-items-center text-white/90'
+          data-aos='zoom-in'
+          data-aos-duration='500'
+        >
           {/* заглушка без фото */}
           <span className='text-sm sm:text-base'>
             Секция тхэквондо ИТФ • Тверь / Редкино

@@ -31,7 +31,10 @@ type CardType = {
 };
 function Card({ title, text }: CardType) {
   return (
-    <div className='rounded-2xl p-5 border border-slate-200 bg-white hover:shadow-md transition'>
+    <div
+      className='rounded-2xl p-5 border border-slate-200 bg-white hover:shadow-md transition'
+      data-aos='flip-right'
+    >
       <div className='font-semibold text-[var(--blue-700)]'>{title}</div>
       <p className='mt-2 text-sm text-slate-600'>{text}</p>
     </div>

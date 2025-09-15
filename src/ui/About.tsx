@@ -1,6 +1,11 @@
 function About() {
   return (
-    <section id='about' className='py-14 lg:py-20 bg-white'>
+    <section
+      id='about'
+      className='py-14 lg:py-20 bg-white'
+      data-aos='zoom-out'
+      data-aos-duration='500'
+    >
       <div className='mx-auto max-w-6xl px-4 sm:px-6'>
         <h2 className='text-2xl sm:text-3xl font-extrabold text-[var(--blue-700)]'>
           О федерации

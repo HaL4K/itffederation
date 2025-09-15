@@ -23,8 +23,14 @@ type CoachType = {
 };
 function Coach({ name, role }: CoachType) {
   return (
-    <div className='rounded-2xl p-5 bg-white border border-slate-200'>
-      <div className='h-68 rounded-xl bg-slate-100 grid place-items-center text-slate-500 text-sm md:h-150'>
+    <div
+      className='rounded-2xl p-5 bg-white border border-slate-200'
+      data-aos='flip-down'
+    >
+      <div
+        className='h-68 rounded-xl bg-slate-100 grid place-items-center text-slate-500 text-sm md:h-150'
+        data-aos='fade-up'
+      >
         Фото позже
       </div>
       <div className='mt-3 font-semibold text-[var(--blue-700)]'>{name}</div>
