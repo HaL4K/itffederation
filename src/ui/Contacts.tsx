@@ -24,7 +24,7 @@ function Contacts() {
           </a>
         </div>
         <div className='rounded-2xl border border-slate-200 bg-white h-56 sm:h-64 grid place-items-center text-slate-500'>
-          Карта зала (добавим позже)
+          Карта зала
         </div>
       </div>
     </section>
