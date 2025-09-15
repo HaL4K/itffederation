@@ -23,9 +23,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang='ru'>
+    <html lang='ru' className='overflow-x-hidden'>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} bg-[var(--blue-50)] text-slate-900 selection:bg-blue-200/80`}
+        className={`${geistSans.variable} ${geistMono.variable} bg-[var(--blue-50)] text-slate-900 selection:bg-blue-200/80 overflow-x-hidden `}
       >
         {children}
       </body>

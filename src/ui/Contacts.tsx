@@ -5,7 +5,7 @@ function Contacts() {
       className='py-14 lg:py-20'
       data-aos='fade-down'
       data-aos-easing='linear'
-      data-aos-duration='1500'
+      data-aos-duration='700'
     >
       <div className='mx-auto max-w-6xl px-4 sm:px-6 grid lg:grid-cols-2 gap-10 items-start'>
         <div>
@@ -21,7 +21,7 @@ function Contacts() {
             свяжемся.
           </p>
           <a
-            href='#signup'
+            href='tel:89969237188'
             className='mt-5 inline-block bg-[var(--red-600)] hover:bg-[var(--blue-500)] text-white px-5 py-3 rounded-xl font-semibold transition'
           >
             Оставить заявку

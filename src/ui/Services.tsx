@@ -7,14 +7,17 @@ function Services() {
         </h2>
         <div className='mt-6 grid md:grid-cols-3 gap-4'>
           <Card
+            dataaos={500}
             title='Дети (с 6 лет)'
             text='Занятия в игровой форме, дисциплина, основы техники и координации.'
           />
           <Card
+            dataaos={700}
             title='Подростки'
             text='Физподготовка, техника ударов/защиты, спарринги, подготовка к аттестациям.'
           />
           <Card
+            dataaos={900}
             title='Взрослые'
             text='Общая физическая подготовка, самооборона, здоровье и выносливость.'
           />
@@ -28,12 +31,14 @@ export default Services;
 type CardType = {
   title: string;
   text: string;
+  dataaos: number;
 };
-function Card({ title, text }: CardType) {
+function Card({ title, text, dataaos }: CardType) {
   return (
     <div
       className='rounded-2xl p-5 border border-slate-200 bg-white hover:shadow-md transition'
       data-aos='flip-right'
+      data-aos-duration={dataaos}
     >
       <div className='font-semibold text-[var(--blue-700)]'>{title}</div>
       <p className='mt-2 text-sm text-slate-600'>{text}</p>

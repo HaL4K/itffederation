@@ -1,8 +1,10 @@
-import { ArrowRight } from "lucide-react";
-
 function Hero() {
   return (
-    <section className='bg-[var(--blue-50)]' data-aos='flip-up'>
+    <section
+      className='bg-[var(--blue-50)]'
+      data-aos='zoom-out'
+      data-aos-duration='1000'
+    >
       <div className='mx-auto max-w-6xl px-4 sm:px-6 py-14 lg:py-20 grid lg:grid-cols-2 gap-10 items-center'>
         <div>
           <h1 className='text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight text-[var(--blue-700)]'>
@@ -15,7 +17,7 @@ function Hero() {
           </p>
           <div className='mt-6 flex flex-col sm:flex-row gap-3'>
             <a
-              href='#signup'
+              href='tel:89969237188'
               className='inline-block text-center bg-[var(--red-600)] hover:bg-[var(--blue-500)] text-white px-5 py-3 rounded-xl font-semibold transition'
             >
               Записаться на тренировку
@@ -27,7 +29,7 @@ function Hero() {
               Узнать больше
             </a>
           </div>
-          <div className='mt-8 grid grid-cols-3 gap-3 sm:gap-4 text-center'>
+          <div className='mt-8 flex justify-center text-center'>
             <Stat title='с 2021' caption='работаем' />
             <Stat title='ITF' caption='формат' />
           </div>
@@ -54,7 +56,7 @@ type StatType = {
 };
 function Stat({ title, caption }: StatType) {
   return (
-    <div className='rounded-2xl bg-white/80 backdrop-blur px-3 py-4 sm:px-4 sm:py-5 border border-white/60'>
+    <div className='rounded-2xl bg-white/80 backdrop-blur px-5 py-4 sm:px-5 sm:py-5 border border-white/60 mx-5'>
       <div className='text-lg sm:text-2xl font-extrabold text-[var(--blue-700)] leading-none'>
         {title}
       </div>
