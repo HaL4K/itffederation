@@ -13,8 +13,8 @@ import { useEffect } from "react";
 
 export default function Home() {
   useEffect(() => {
-    AOS.init({ duration: 700, once: true, easing: "ease-out-cubic" });
-  }, []);
+    AOS.init({ duration: 700, once: false, easing: "ease-out-cubic" });
+  });
   return (
     <>
       <Header />
